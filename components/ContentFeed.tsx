@@ -19,7 +19,7 @@ export default function ContentFeed({
   onLockedClick,
   creatorName = "Vitória Lima",
   creatorHandle = "@vitorialima5",
-  profileImg = "",
+  profileImg = undefined
   feedItems = DEFAULT_FEED_ITEMS,
 }: {
   onLockedClick: () => void;
